@@ -1,0 +1,24 @@
+ :root{
+  --bg:#ffffff;
+  --text:#111827;
+ }
+ [data-theme='dark']{
+  --bg:#0b1221;
+  --text:#f9fafb;
+ }
+
+ body{
+  background:var(--bg);
+  color:var(--text);
+  margin:0;
+  font-family:sans-serif;
+  transition: background 0.3s,color 0.3s;
+ }
+
+ button{
+  padding:0.1rem 1rem;
+  font-size:1rem;
+  border-radius:0.5rem;
+  border:none;
+  cursor:pointer;
+ }
